@@ -1,6 +1,5 @@
-
 import { GoogleGenAI, Type } from "@google/genai";
-import { GeminiParsedData, TransactionType } from "../types";
+import { GeminiParsedData, TransactionType } from "../types.ts";
 
 // Helper to convert file to base64
 export const fileToGenerativePart = async (file: File): Promise<string> => {
