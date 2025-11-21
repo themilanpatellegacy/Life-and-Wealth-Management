@@ -1,13 +1,12 @@
-
 import React, { useState, useMemo, useRef } from 'react';
 import { 
   Currency, 
   Transaction, 
   Category, 
   TransactionType
-} from './types';
-import { FinancialTable } from './components/FinancialTable';
-import { parseFinancialDocument, fileToGenerativePart } from './services/geminiService';
+} from './types.ts';
+import { FinancialTable } from './components/FinancialTable.tsx';
+import { parseFinancialDocument, fileToGenerativePart } from './services/geminiService.ts';
 import { 
   BarChart, 
   Bar, 
@@ -542,4 +541,3 @@ function App() {
 }
 
 export default App;
-
