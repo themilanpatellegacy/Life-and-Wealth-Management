@@ -1,6 +1,5 @@
-
 import React, { useMemo } from 'react';
-import { Category, Transaction, TransactionType } from '../types';
+import { Category, Transaction, TransactionType } from '../types.ts';
 import { Pencil, Trash2 } from 'lucide-react';
 
 interface FinancialTableProps {
